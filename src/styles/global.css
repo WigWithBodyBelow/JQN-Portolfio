@@ -15,7 +15,7 @@
   --fw-semibold: 600;
   --fw-bold: 700;
 
-  --transition-base: 0.3s ease;
+  --transition-base: 0.4s ease;
 }
 
 /* ===== Reset ===== */
@@ -45,7 +45,7 @@ img {
 
 button {
   font: inherit;
-  color: inherit;
+  color: none;
   background: none;
   border: none;
   cursor: pointer;
