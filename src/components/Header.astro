@@ -4,6 +4,7 @@ const currentPath = Astro.url.pathname;
 const navLinks = [
   { href: '/', label: 'PROYECTOS' },
   { href: '/contacto/', label: 'CONTACTO' },
+  { href: '/about/', label: '¿QUIEN SOY?' },
 ] as const;
 ---
 
@@ -67,7 +68,7 @@ const navLinks = [
 
   .nav-link {
     font-family: var(--font-body);
-    font-size: 1.2remrem;
+    font-size: 1.4remrem;
     font-weight: var(--fw-extrabold);
     letter-spacing: 0.08em;
     text-transform: uppercase;
